@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #EAC7C7;
+}
+
+.head-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(236, 168, 105, 0.9);
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.8s;
+}
+
+ul li a:hover {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgba(236, 168, 105, 1);
+}
+
+.btn {
+    padding: 10px 15px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(101, 100, 124, 0.9);
+    transition: all 0.8s;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.btn:hover {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: rgba(101, 100, 124, 1);
+
+}
+
+section {
+    margin-top: 10%;
+    margin-left: 5%;
+    max-width: 600px;
+    position: relative;
+}
+
+h1 {
+    display: inline-block;
+    margin-bottom: 3%;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 8%;
+    text-align: justify;
+}
+
+.katıl {
+    background-color: rgba(200, 92, 142, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    color: whitesmoke;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.katıl:hover {
+    background-color: rgba(200, 92, 142, 1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.emir-rbg {
+    width: 450px;
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    right: 3%;
+    height: 80%;
+}
